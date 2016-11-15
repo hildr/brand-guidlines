@@ -1,0 +1,112 @@
+@keyframes englarge{
+  from{
+    transform:scaleY(1);
+  }
+  to{
+    transform:scaleY(.4);
+  }
+}
+
+.scale{
+  animation:englarge 2s infinite alternate;
+}
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(180deg);
+  }
+}
+
+.rotate{
+  animation: spin 5s infinite alternate;
+}
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.next{
+  animation: spin 5s infinite;
+}
+
+@keyframes spin1{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(-360deg);
+  }
+}
+
+.back{
+  animation: spin1 5s infinite;
+}
+
+
+@keyframes try{
+ 0%{
+ 	transform: skew(0deg);
+ }
+ 25%{
+ 	transform: skew(-40deg);
+ }
+ 75%{
+ 	transform: skew(0deg);
+ }
+ 100%{
+ 	transform: skew(40deg);
+ }
+}
+
+.skew{
+	animation: try 5s infinite alternate;
+}
+
+@keyframes color{
+ from{
+ -webkit-filter:hue-rotate(0);
+  filter:hue-rotate(0);
+ }
+ to{
+ -webkit-filter:hue-rotate(85deg);
+  filter:hue-rotate(85deg);
+ }
+}
+
+.hue-rotate{
+	animation: color 5s infinite alternate;
+}
+@keyframes pic{
+from{
+	-webkit-filter:blur(0);
+  filter:blur(0);
+}
+to{
+	-webkit-filter:blur(5px);
+  filter:blur(5px);
+}
+}
+.blur{
+	animation: pic 5s infinite alternate;
+}
+@keyframes new{
+	from{
+	-webkit-filter:invert(0);
+  filter:invert(0);
+	}
+	to{
+	-webkit-filter:invert(75%);
+  filter:invert(75%);
+	}	
+}
+.invert{
+	animation: new 5s infinite alternate;
+}

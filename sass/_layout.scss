@@ -1,0 +1,64 @@
+table{
+	margin-left: 1em;
+}
+@media screen and (min-width:640px){
+	table{
+	margin-left: 5em;
+}
+
+}
+
+@media screen and (min-width:1024px){
+.badge,
+.history,
+.mascot{
+	display: flex;
+	jstify-content: space-between;
+}
+
+.elements{
+	width: 100%;
+}
+.details,
+.story{
+	width:60%;
+}
+}
+.text{
+  padding:0 2em 0 3em;
+}
+@media screen and (min-width:1024px){
+.container2{
+	display: flex;
+	justify-content: space-between;
+}
+#pallet .container2{
+	margin-left: 5em;
+}
+.explain p{
+	margin-left: 17em;
+}
+#pallet .explain p{
+	margin-left: 25em;
+}
+.typefaces{
+	display:flex;
+	justify-content: space-between;
+}
+.arialtype{
+	margin-left: -2em;
+}
+.robototype{
+	margin-right: 5em;
+	margin-top: -1em;
+}
+}
+
+.typefaces{
+	margin-top: 3em;
+}
+
+.typos {
+	margin-top: 3em;
+	font-size: 20px;
+}

@@ -1,0 +1,122 @@
+
+h1{
+	font-family: Arial, sans-serif;
+	color: #EA0909;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 2.5em;
+}
+nav ul li a{
+	font-family: 'Roboto', sans-serif;
+	color: #0E218A;
+	font-size: 16px;
+}
+.about,
+.pages,
+.details{
+	font-family: 'Roboto', sans-serif;
+	color: #0E218A;
+	font-size: 16px;
+}
+.details{
+	margin: 0 1em 0 1em;;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	color: #0E218A;
+	font-size: 16px;
+	text-align: center;
+	margin: 0 2em 0 2em;
+}
+h2{
+	font-family: Arial, sans-serif;
+	color: #0E218A;
+	font-size: 24px;
+	margin-left: 1em;
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;
+	color: #0E218A;
+	font-size: 24px;
+	margin-left: 1em;
+}
+
+td,
+th{
+	font-family: 'Roboto', sans-serif;
+	color: #0E218A;
+	font-size: 16px;
+	margin: 4em;
+}
+.arial td{
+	font-family: 'Arial', sans-serif;
+}
+.ital td{
+	font-style: italic;
+}
+.bold td{
+	font-family: 'Arial Black', sans-serif;
+}
+.bol-it td{
+	font-family: 'Arial Black', sans-serif;
+	font-style: italic;
+}
+.ital1 td{
+	font-weight: 400;
+	font-style: italic;
+}
+.bold1 td{
+	font-weight: 700;
+	font-style: bold;
+}
+.bol-it1 td{
+	font-weight: 700;
+	font-style: italic;
+}
+
+@media screen and (min-width:1024px){
+
+h2{
+	font-size: 30px;
+	margin-left: 2.5em;
+}
+h4{
+	font-size: 30px;
+	margin-left: 2.5em;
+}
+
+h1{
+	font-size: 56px;
+	margin-top: 2em;
+}
+.about,
+.pages{
+font-size: 24px;
+}
+
+.details{
+	font-size: 20px;
+	margin: 2em 3em 0 0;
+}
+p{
+	font-size: 24px;
+	margin: 0 3em 0 3em;
+}
+.explain p{
+	margin: 2em auto;
+	text-align: left;
+	font-size: 18px;
+	width: 45%;
+}
+td{
+	font-size: 18px;
+}
+}
+.explain p{
+	margin: 2em 1em 0 1em;
+}
+#home p{
+	color: white;
+	margin-top: 3em;
+}
